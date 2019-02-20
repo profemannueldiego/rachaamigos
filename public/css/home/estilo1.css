@@ -1,0 +1,251 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+header{
+    background-image: url("../../img/home/head-bg.jpg");
+    background-size: 100% 100%;
+    height: 35%;
+}
+
+div#logo{
+    /*border: 1px solid #000;*/
+    width: 30%;
+    height: 12%;
+    transform: skewX(-30deg);
+    background-color: rgb(253,189,0);
+    position: absolute;
+    top: 0px;
+    padding-top: 2.1%;
+    margin-left: -2%;
+    z-index: 4;
+    overflow: hidden;
+
+}
+
+div#logo h1, div#logo-rp h1{
+    padding-left: 30%;
+    transform: skewX(30deg);
+    background-color: rgb(255,199,34);
+    width: 110%;
+    height: 60%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2em;
+    padding-top: 0.5em;
+    color: rgb(48,48,48);
+}
+
+nav{
+    /*border: 1px solid #000;*/
+    position: absolute;
+    top: 5%;
+    height: 9%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 50%;
+    padding-top: 1.5%;
+}
+nav ul li {
+    display: inline-block;
+    font-family: 'Ubuntu', sans-serif;
+    color: #fff;
+    margin-right: 2%;
+}
+
+div#caixa-branca{
+    border: 1px solid rgb(255,199,34);
+    width: 80%;
+    height: 60%;
+    position: relative;
+    margin: 0 auto;
+}
+
+div#caixa-branca h3{
+    text-align: center;
+    padding-top: 10%;
+}
+
+section#ultimo-jogo{
+    margin-top: 10%;
+    position: relative;
+}
+section#ultimo-jogo aside{
+    background-color: rgb(242,242,242);
+    border: 1px solid rgb(230,230,230);
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 35%;
+    width: 100%;
+    position: absolute;
+    top: 45%;
+    z-index: 2;
+}
+
+div#caixa-branca h1{
+    width: 35%;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(48,48,48);
+    margin: 0 auto;
+}
+
+h1.branca-acima{
+    position: relative;
+    top: -3%;
+}
+
+h1.branca-abaixo{
+    position: absolute;
+    bottom: -6%;
+    font-size: 1em;
+    left: 33%;
+}
+
+a.mais-info{
+    text-decoration: none;
+    background-color: rgb(255,199,34);
+    color: rgb(48,48,48);
+    display: inline-block;
+    width: 70%;
+    height: 2em;
+    text-align: center;
+    padding-top: 2%;
+
+}
+
+section#sobre-racha{
+    margin-top: 10%;
+    height: 40%;
+}
+
+section#sobre-racha aside#um{
+    background-color: rgb(255,199,34);
+    width: 45%;
+    height: 100%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+section#sobre-racha aside#dois{
+    background-color: rgb(48,48,48);
+    width: 25%;
+    height: 100%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 5%;
+}
+
+section#sobre-racha aside#um h1{
+    color: #fff;
+    margin-top: 10%;
+}
+section#sobre-racha aside#um p{
+    color: rgb(48,48,48);
+    margin-top: 5%;
+}
+
+section#sobre-racha aside#dois h1{
+    color: #fff;
+    margin-top: 20%;
+}
+section#sobre-racha aside#dois ul{
+    color: rgb(255,199,34);
+    margin-top: 5%;
+}
+
+footer{
+    margin-top: 10%;
+    height: 40%;
+    background-image: url("../../img/home/footer-bg.jpg");
+    position: relative;
+    padding-top: 2%;
+    padding-bottom: 3%;
+}
+
+footer section#um{
+    float: left;
+    width: 60%;
+    border-right: 1px solid rgb(255,199,34);
+    height: 90%;
+}
+footer section#dois{
+    float: left;
+    width: 30%;
+    height: 90%;
+    padding: 2%;
+}
+
+
+@font-face {
+    font-family: socialmedia;
+    src: url('social_media.ttf');
+}
+div#fb::after{
+    font-family: socialmedia;
+    content: "\0066"; /*https://www.dafont.com/social-media.font*/
+    font-size: 3em;
+}
+div#ig::after{
+    font-family: socialmedia;
+    content: "\0063"; /*https://www.dafont.com/social-media.font*/
+    font-size: 3em;
+}
+div#tw::after{
+    font-family: socialmedia;
+    content: "\0074"; /*https://www.dafont.com/social-media.font*/
+    font-size: 3em;
+}
+div#social div{
+    float: left;
+    margin-right: 2%;
+
+}
+
+footer section#um p{
+    margin-top: 15%;
+    margin-left: 10%;
+    color: rgb(255,199,34);
+}
+footer section#dois p{
+    color: #fff;
+}
+
+footer h4{
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left:-18%;
+}
+footer h4 a{
+    color: rgb(255,199,34);
+    text-decoration: none;
+}
+
+div#logo-rp{
+    /*border: 1px solid #000;*/
+    width: 30%;
+    height: 30%;
+    transform: skewX(-30deg);
+    background-color: rgb(253,189,0);
+    position: absolute;
+    top: 0px;
+    padding-top: 2.1%;
+    margin-left: -2%;
+    z-index: 4;
+    overflow: hidden;
+}
+
+.clear{
+    clear: both;
+}
+

@@ -1,0 +1,26 @@
+form{
+    background-color: rgb(255,199,34);
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+form input[type="file"]:hover{
+    cursor: pointer;
+}
+
+.btn-cinza{
+    background-color: rgb(73,73,73);
+    border: 3px double rgb(255,199,34);
+    color: rgb(255,199,34);
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3%;
+}
+.btn-cinza:hover{
+    color: #fff;
+    transition: color 1s;
+    cursor: pointer;
+}
